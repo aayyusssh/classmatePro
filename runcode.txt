@@ -1,0 +1,11 @@
+backend
+python3 manage.py runsslserver --certificate ~/Programs/python/"major project"/Microsoft-Teams-Clone/ssl/mydomain.crt --key ~/Programs/python/"major project"/Microsoft-Teams-Clone/ssl/server.key 0.0.0.0:9000
+
+backend/msteams
+celery -A msteams worker -l info -B
+
+socketio
+node index.js
+
+frontend
+REACT_APP_DJANGO_URL=https://localhost:9000/ REACT_APP_SOCKET_URL=https://localhost:5000 npm start

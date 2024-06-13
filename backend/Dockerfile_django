@@ -1,0 +1,25 @@
+FROM python:3.8
+
+# Set environment variables
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
+# Set working directory
+WORKDIR /app
+
+# Install dependencies
+COPY requirements.txt /app/
+RUN pip install -r requirements.txt
+
+# Copy project files
+COPY . /app/
+RUN python manage.py makemigrations authentication
+RUN python manage.py makemigrations communication
+RUN python manage.py makemigrations teams
+RUN python manage.py migrate
+# Expose port
+EXPOSE 9000
+
+# Command to run the server
+CMD ["python", "manage.py", "runsslserver", "--certificate", "ssl/mydomain.crt", "--key", "ssl/server.key", "0.0.0.0:9000"]
+~                                                                                                                               
