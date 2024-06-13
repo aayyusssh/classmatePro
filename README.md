@@ -1,9 +1,4 @@
-# Microsoft-Teams-Clone
-Created by - Kaushiki Raj
-
-Microsoft Teams Clone is a project built for Microsoft Engage'21 program. This is a platform through which different users can connect with each other through voice calls or video calls or chat, collaborate with each other and keep track of their completed and pending tasks. This application provides the user with the option to either collaborate in team or have one-to-one interation with their friends or family or colleagues.
-
-For working prototype of the product, please visit https://msteams.games/
+# ClassMatePro
 
 ## Features
 1. **Signup and Login feature** - Provides basic authentication
@@ -63,78 +58,6 @@ Install celery
 ***Note - please allow the website to show notifications which is by default off in most of the broswers.***
 
 
-## Screenshots
-
-<p>
- <img src="https://user-images.githubusercontent.com/43745008/125168080-448d9800-e1c1-11eb-92e6-c2c19a7811b5.png" height="40%" width="50%"> 
- <p>Login Page</p>
-</p>
-<p>
- <img src="https://user-images.githubusercontent.com/43745008/125168290-718e7a80-e1c2-11eb-8ce2-69b946d4429a.png" height="40%" width="50%">
- <p>Signup Page </p>
-</p>
-<p>
- <img src="https://user-images.githubusercontent.com/43745008/125169385-81f52400-e1c7-11eb-8ef3-f1de2454f919.png" height="40%" width="50%">
- <p>Teams Page - Displays a list of all teams</p>
-</p>
-
-<p>
- <img src="https://user-images.githubusercontent.com/43745008/125169418-b36def80-e1c7-11eb-878a-eb9bc65d1037.png" height="40%" width="50%">
- <p>Inside Teams Page : Conversations, General, Call Log, Scheduled calls, Tasks, Team participants </p>
-</p>
-
-<p>
- <img src="https://user-images.githubusercontent.com/43745008/125169463-e31cf780-e1c7-11eb-8eb3-7185b7b02331.png" height="40%" width="50%">
- <p>Videocall page</p>
- </p>
- 
- <p>
- <img src="https://user-images.githubusercontent.com/43745008/125169477-f16b1380-e1c7-11eb-9b4f-5ccf45a7136c.png" height="40%" width="50%">
- <p>UI changes on clicking chat/participants</p>
- </p>
-
-<p>
- <img src="https://user-images.githubusercontent.com/43745008/125171971-a3a8d800-e1d4-11eb-9f22-0274423d2976.png" height="40%" width="50%">
- <p>Call Log Tab</p>
- </p>
- 
- <p>
- <img src="https://user-images.githubusercontent.com/43745008/125171984-b28f8a80-e1d4-11eb-90f7-e012be8b87fa.png" height="40%" width="50%">
- <p>Schedule Meeting Modal</p>
- </p>
-
-<p>
- <img src="https://user-images.githubusercontent.com/43745008/125171989-bc18f280-e1d4-11eb-8794-af9b042bd1df.png" height="40%" width="50%">
- <p>Tasks Section</p>
- </p>
-
-<p>
- <img src="https://user-images.githubusercontent.com/43745008/125171997-c4712d80-e1d4-11eb-9c18-121740bf7df2.png" height="40%" width="50%">
- <p>Team Participants Tab</p>
- </p>
-
-
-<p>
- <img src="https://user-images.githubusercontent.com/43745008/125172007-d0f58600-e1d4-11eb-9bf0-5ed85fe1f47e.png" height="40%" width="50%">
- <p>Personal Chitchat section</p>
- </p>
-
-<p>
- <img src="https://user-images.githubusercontent.com/43745008/125172033-eff41800-e1d4-11eb-9250-559edd46b8ac.png" height="40%" width="50%">
- <p>Incoming Call Modal</p>
- </p>
-
-
-<p>
- <img src="https://user-images.githubusercontent.com/43745008/125397345-6f4b3c80-e3cb-11eb-82b1-56aa5aa38eb1.png" height="40%" width="80%">
- <p>Email Reminder </p>
- </p>
- 
- <p>
- 
- <img src="https://user-images.githubusercontent.com/43745008/125192432-7821fe00-e265-11eb-9c2c-8cde5eb1d823.png" height="40%" width="50%">
- <p>View Magnified Image Modal</p>
- </p>
 
 
 
