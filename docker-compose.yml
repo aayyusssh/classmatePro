@@ -26,8 +26,23 @@ services:
     environment:
       - REDIS_HOST=redis
       - REDIS_PORT=6379
+  
+
+  socket:
+    build: 
+      context: ./socket
+      dockerfile: Dockerfile_socket
+    ports:
+      - "5000:5000"
+    environment:
+      NODE_ENV: production
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+   
 
   redis:
     image: redis:alpine
     ports:
       - "6379:6379"
+
