@@ -10,7 +10,7 @@ click-repl==0.2.0
 click==7.1.2
 django-cors-headers==3.7.0
 django-sslserver==0.22
-django==3.2.5
+django==3.2.25
 djangorestframework==3.12.4
 fcm-django==0.3.10
 idna==2.10
